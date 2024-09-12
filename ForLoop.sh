@@ -1,7 +1,11 @@
 #! /bin/bash
 for i in {1..5}
 do 
-mkdir /home/andrey/bash/execute_there
 cd /home/andrey/bash/execute_there
-touch $i  
+rm $i
+
+#  rm -d command is for removing empty directories
+#  rm -r command deletes non-empty directories.
+
+rm -d /home/andrey/bash/execute_there 
 done 
