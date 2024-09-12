@@ -1,11 +1,5 @@
 #! /bin/bash
-for i in {1..5}
+for i in Monday Tuesday Wednesday Thursday Friday
 do 
-cd /home/andrey/bash/execute_there
-rm $i
-
-#  rm -d command is for removing empty directories
-#  rm -r command deletes non-empty directories.
-
-rm -d /home/andrey/bash/execute_there 
+echo "Weekday $((i++)) : $i"
 done 
