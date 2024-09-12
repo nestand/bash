@@ -7,5 +7,5 @@ pwd
 ls
 whoami
 date
-cal
+ncal 9 2024
 touch a b c
