@@ -1,5 +1,5 @@
 #! /bin/bash
-for i in 1 2 3 4 5 
+for i in jump play run sleep eat
 do 
-echo "Welcome $i times"
+echo "See cat $i"
 done
