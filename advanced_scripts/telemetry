@@ -1,0 +1,1 @@
+{"From": "22.04", "InstallMedia": "Ubuntu 22.04.2 LTS \"Jammy Jellyfish\" - Release amd64 (20230223)", "Type": "GTK", "ThirdPartySources": true, "Stages": {"0": "start", "3": "PREPARE", "18": "MODIFY_SOURCES", "210": "FETCH", "269": "INSTALL", "274": "INSTALL", "342": "INSTALL", "2083": "POSTUPGRADE", "2095": "CLEANUP", "2149": "REBOOT"}}error 123
