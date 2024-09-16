@@ -1,1 +1,14 @@
 {"From": "22.04", "InstallMedia": "Ubuntu 22.04.2 LTS \"Jammy Jellyfish\" - Release amd64 (20230223)", "Type": "GTK", "ThirdPartySources": true, "Stages": {"0": "start", "3": "PREPARE", "18": "MODIFY_SOURCES", "210": "FETCH", "269": "INSTALL", "274": "INSTALL", "342": "INSTALL", "2083": "POSTUPGRADE", "2095": "CLEANUP", "2149": "REBOOT"}}error 123
+Sep 15 10:23:01 myserver kernel: [530291.120783] CPU: 1 PID: 1234 Comm: bash Not tainted 5.4.0-66-generic #74-Ubuntu
+Sep 15 10:23:01 myserver kernel: [530291.120785] Hardware name: Dell Inc. PowerEdge R640/0R640, BIOS 1.1.1 01/02/2020
+Sep 15 10:23:01 myserver kernel: [530291.120786] RIP: 0010:unhandled_error+0x1f/0x30
+Sep 15 12:34:56 myserver sshd[2345]: Failed password for root from 192.168.1.10 port 22 ssh2
+Sep 15 12:34:56 myserver sshd[2345]: error: maximum authentication attempts exceeded for root from 192.168.1.10 port 22
+[Mon Sep 15 13:45:12 2023] [error] [client 192.168.1.5] File does not exist: /var/www/html/favicon.ico
+Sep 15 14:56:22 myserver kernel: [530292.120784] EXT4-fs (sda1): error: ext4_find_entry:1301: inode #2: comm ls: reading directory lblock 0
+[530292.120783] usb 2-1.1: device descriptor read/64, error -32
+Sep 15 10:23:01 myserver kernel: [530291.120783] WARNING: CPU: 1 PID: 1234 at /build/linux-5.4.0/kernel/sched/core.c:4054
+Sep 15 10:23:01 myserver kernel: [530291.120785] Process accounting turned off due to errors.
+Sep 15 10:23:01 myserver kernel: [530291.120783] WARNING: CPU: 1 PID: 1234 at /build/linux-5.4.0/kernel/sched/core.c:4054
+Sep 15 10:23:01 myserver kernel: [530291.120785] Process accounting turned off due to errors.
+[530292.120783] warning: `udevd` uses deprecated sysfs interface, please update your software.
