@@ -9,7 +9,7 @@
 #ping -c1 142.250.178.142
 
 #ping ip that doesn't work 
-ping -c1 168.192.1.256
+ping -c1 168.192.1.256 &> /dev/null
 
 if [ $? -eq 0 ]
 then
