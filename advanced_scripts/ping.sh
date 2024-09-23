@@ -10,11 +10,11 @@
 
 #ping ip that doesn't work 
 host = 68.192.1.256
-ping -c1 $host &> /dev/null
+ping -c3 $host &> /dev/null
 
 if [ $? -eq 0 ]
 then
-echo $host is "OK"
+echo The host $host is "OK"
 else 
-echo $host is "not OK"
+echo The host $host is  "not OK"
 fi
